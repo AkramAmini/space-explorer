@@ -59,22 +59,6 @@ Space-Explorer/
 
 ---
 
-##  Getting Started
-
-1. Clone the repository
-
-```bash
-[git clone https://github.com/AkramAmini/space-explorer.git]
-```
-
-2. Open the project folder.
-
-3. Open `index.html` in your browser.
-
-No installation or build tools are required.
-
----
-
 ##  What I Learned
 
 This project helped me practice:
