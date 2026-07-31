@@ -69,7 +69,7 @@ Space-Explorer/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/space-explorer.git
+[git clone https://github.com/AkramAmini/space-explorer.git]
 ```
 
 2. Open the project folder.
