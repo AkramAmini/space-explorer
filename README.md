@@ -4,12 +4,9 @@ A modern and responsive JavaScript web application for exploring the Solar Syste
 
 Users can browse planets, search by name, save favorites using Local Storage, switch between dark and light mode, and discover interesting space facts.
 
-## Live Demo
-http://space-explorer-amini.netlify.app/
-
 ##  Preview
 
-![Space Explorer Screenshot](images/preview.png)
+(images/preview.png)
 
 
 ---
@@ -118,3 +115,6 @@ This project helped me practice:
 This project is licensed under the MIT License.
 
 Feel free to use and modify it for learning purposes.
+
+## Live Demo
+http://space-explorer-amini.netlify.app/
