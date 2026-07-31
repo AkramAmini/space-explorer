@@ -4,13 +4,13 @@ A modern and responsive JavaScript web application for exploring the Solar Syste
 
 Users can browse planets, search by name, save favorites using Local Storage, switch between dark and light mode, and discover interesting space facts.
 
----
+## Live Demo
+http://
 
 ##  Preview
 
 ![Space Explorer Screenshot](images/preview.png)
 
-> *(Replace `preview.png` with a screenshot of your project.)*
 
 ---
 
