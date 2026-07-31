@@ -1,0 +1,480 @@
+/* ==========================================================
+   RESPONSIVE.CSS
+   PART 1
+========================================================== */
+
+/* ==========================================================
+   1400px
+========================================================== */
+
+@media (max-width:1400px){
+
+    section{
+        padding:80px 6%;
+    }
+
+    .header{
+        padding:18px 6%;
+    }
+
+    .hero{
+        gap:50px;
+    }
+
+    .hero-content h1{
+        font-size:3.5rem;
+    }
+
+    .hero-image img{
+        max-width:450px;
+    }
+
+    .planet-container{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    #gallery-container{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+/* ==========================================================
+   1200px
+========================================================== */
+
+@media (max-width:1200px){
+
+    .hero{
+        gap:40px;
+    }
+
+    .hero-content h1{
+        font-size:3rem;
+    }
+
+    .hero-content p{
+        font-size:1rem;
+    }
+
+    .hero-image img{
+        max-width:400px;
+    }
+
+    .planet-container{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    #favorite-container{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .stats{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+/* ==========================================================
+   992px
+========================================================== */
+
+@media (max-width:992px){
+
+    section{
+        padding:70px 5%;
+    }
+
+    .header{
+        padding:16px 5%;
+    }
+
+    /* ---------- Mobile Menu Button ---------- */
+
+    #menu-btn{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    /* ---------- Navigation ---------- */
+
+    .navbar{
+
+        position:absolute;
+
+        top:100%;
+
+        left:0;
+
+        width:100%;
+
+        background:#09111f;
+
+        overflow:hidden;
+
+        max-height:0;
+
+        transition:.4s ease;
+    }
+
+    .navbar.active{
+
+        max-height:500px;
+    }
+
+    .nav-links{
+
+        flex-direction:column;
+
+        gap:25px;
+
+        padding:30px;
+
+        align-items:center;
+    }
+
+    /* ---------- Hero ---------- */
+
+    .hero{
+
+        flex-direction:column-reverse;
+
+        text-align:center;
+
+        padding-top:140px;
+
+        gap:60px;
+    }
+
+    .hero-content{
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+    }
+
+    .hero-content h1{
+
+        font-size:2.8rem;
+    }
+
+    .hero-content p{
+
+        max-width:650px;
+    }
+
+    .hero-image img{
+
+        max-width:380px;
+    }
+
+    /* ---------- Search ---------- */
+
+    #search-input{
+
+        max-width:100%;
+    }
+
+    /* ---------- Cards ---------- */
+
+    .planet-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:25px;
+    }
+
+    #gallery-container{
+
+        grid-template-columns:1fr;
+    }
+
+    #favorite-container{
+
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .gallery-card img{
+
+        height:320px;
+    }
+
+    /* ---------- Modal ---------- */
+
+    .modal-content{
+
+        max-width:90%;
+    }
+
+    .modal-content img{
+
+        height:280px;
+    }
+
+    /* ---------- Footer ---------- */
+
+    footer{
+
+        text-align:center;
+    }
+
+}
+
+/* ==========================================================
+   RESPONSIVE.CSS
+   PART 2
+========================================================== */
+
+/* ==========================================================
+   768px
+========================================================== */
+
+@media (max-width:768px){
+
+    section{
+        padding:60px 5%;
+    }
+
+    h1{
+        font-size:2.4rem;
+    }
+
+    h2{
+        font-size:2rem;
+        margin-bottom:40px;
+    }
+
+    .hero{
+        min-height:auto;
+        padding-top:120px;
+    }
+
+    .hero-image img{
+        max-width:320px;
+    }
+
+    .planet-container,
+    #favorite-container,
+    #gallery-container{
+        grid-template-columns:1fr;
+    }
+
+    .planet-card img,
+    .favorite-card img,
+    .gallery-card img{
+        height:240px;
+    }
+
+    .card-buttons{
+        flex-direction:column;
+    }
+
+    .favorite-btn,
+    .learn-btn{
+        width:100%;
+    }
+
+    .stats{
+        grid-template-columns:1fr;
+    }
+
+    .modal-content{
+        max-width:95%;
+    }
+
+    .modal-content img{
+        height:220px;
+    }
+
+    #modal-body{
+        padding:20px;
+    }
+
+    .close-btn{
+        width:38px;
+        height:38px;
+        font-size:1.2rem;
+    }
+
+    footer{
+        padding:30px 20px;
+    }
+
+}
+
+/* ==========================================================
+   576px
+========================================================== */
+
+@media (max-width:576px){
+
+    .header{
+        padding:15px 20px;
+    }
+
+    .logo{
+        font-size:1.2rem;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+    h2{
+        font-size:1.8rem;
+    }
+
+    p{
+        font-size:.95rem;
+    }
+
+    .hero{
+        gap:40px;
+    }
+
+    .hero-image img{
+        max-width:260px;
+    }
+
+    .btn{
+        width:100%;
+        text-align:center;
+        padding:15px;
+    }
+
+    #search-input{
+        padding:15px 20px;
+        font-size:.95rem;
+    }
+
+    .planet-card-content,
+    .gallery-content,
+    .favorite-content{
+        padding:20px;
+    }
+
+    .planet-info{
+        flex-direction:column;
+        gap:8px;
+    }
+
+    .modal-content img{
+        height:200px;
+    }
+
+    .section-title{
+        font-size:2rem;
+    }
+
+    .section-subtitle{
+        font-size:.95rem;
+    }
+
+}
+
+/* ==========================================================
+   400px
+========================================================== */
+
+@media (max-width:400px){
+
+    body{
+        font-size:14px;
+    }
+
+    .header{
+        padding:12px 15px;
+    }
+
+    .logo{
+        font-size:1rem;
+    }
+
+    h1{
+        font-size:1.7rem;
+    }
+
+    h2{
+        font-size:1.5rem;
+    }
+
+    .hero-image img{
+        max-width:220px;
+    }
+
+    .planet-card img,
+    .favorite-card img,
+    .gallery-card img{
+        height:200px;
+    }
+
+    .btn{
+        font-size:.9rem;
+        padding:12px;
+    }
+
+    .favorite-btn,
+    .learn-btn,
+    .remove-btn{
+        padding:10px;
+        font-size:.9rem;
+    }
+
+    .close-btn{
+        width:34px;
+        height:34px;
+        font-size:1rem;
+    }
+
+    .alert{
+        left:15px;
+        right:15px;
+        bottom:20px;
+        text-align:center;
+    }
+
+}
+
+/* ==========================================================
+   LANDSCAPE PHONES
+========================================================== */
+
+@media (max-height:500px) and (orientation:landscape){
+
+    .hero{
+        min-height:auto;
+        padding:140px 0 60px;
+    }
+
+    .hero-image img{
+        max-width:240px;
+    }
+
+}
+
+/* ==========================================================
+   LARGE SCREENS
+========================================================== */
+
+@media (min-width:1600px){
+
+    .container{
+        max-width:1500px;
+    }
+
+    .hero-content h1{
+        font-size:5rem;
+    }
+
+    .hero-image img{
+        max-width:650px;
+    }
+
+    .planet-container{
+        grid-template-columns:repeat(4,1fr);
+    }
+
+}

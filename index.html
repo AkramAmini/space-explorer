@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Space Explorer | Discover the Universe</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+      <div class="logo">🪐 SpaceExplorer</div>
+
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#planets">Planets</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#favorites">Favorites</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-btn">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <button id="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Explore The Universe</h1>
+
+        <p>
+          Journey through planets, discover fascinating facts, and explore
+          NASA's breathtaking space photography.
+        </p>
+
+        <a href="#planets" class="btn"> Explore Now </a>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/planets.jpg" alt="Earth" />
+      </div>
+    </section>
+
+    <!-- ================= SEARCH ================= -->
+
+    <section class="search-section">
+      <h2>Search Planets</h2>
+
+      <input type="text" id="search-input" placeholder="Search planet..." />
+    </section>
+
+    <!-- ================= PLANETS ================= -->
+
+    <section id="planets" class="planets">
+      <h2>Our Solar System</h2>
+
+      <div id="planet-container" class="planet-container"></div>
+    </section>
+
+    <!-- ================= NASA GALLERY ================= -->
+
+    <section id="facts" class="facts">
+      <h2>🚀 Space Facts</h2>
+
+      <div class="fact-box">
+        <p id="fact-text">
+          Click the button to discover an amazing fact about space!
+        </p>
+
+        <button id="next-fact" class="btn">Next Fact</button>
+      </div>
+    </section>
+
+    <!-- ================= FAVORITES ================= -->
+
+    <section id="favorites" class="favorites">
+      <h2>Your Favorites</h2>
+
+      <div id="favorite-container"></div>
+    </section>
+
+    <!-- ================= MODAL ================= -->
+
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+      <p>Made with ❤️ using HTML, CSS & JavaScript</p>
+    </footer>
+
+    <!-- JS Files -->
+
+    <div id="toast" class="toast">
+      <span id="toast-message"></span>
+    </div>
+
+    <script src="planets.js"></script>
+    <script src="storage.js"></script>
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
