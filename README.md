@@ -114,12 +114,12 @@ Feel free to use and modify it for learning purposes.
 ## Live Demo
 http://space-explorer-amini.netlify.app/
 
-## 📷 Screenshots
+##  Screenshots
 
-### 🖥️ Desktop
+###  Desktop
 <img src="https://github.com/user-attachments/assets/fcc8f3d3-8373-430d-a5aa-55024fd7191f" width="750" alt="Desktop Screenshot">
 
-### 📱 Mobile
+###  Mobile
 <img src="https://github.com/user-attachments/assets/307f1653-017b-458b-b3c8-5eef1aa8acdb" width="250" alt="Mobile Screenshot 1">
 
 <img src="https://github.com/user-attachments/assets/75e95bd5-06e0-4aa7-a740-71445aae9e30" width="250" alt="Mobile Screenshot 2">
