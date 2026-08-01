@@ -59,42 +59,6 @@ Space-Explorer/
 
 ---
 
-##  What I Learned
-
-This project helped me practice:
-
-- DOM Manipulation
-- Event Handling
-- Array Methods
-- JavaScript Objects
-- Functions
-- Local Storage
-- Responsive Web Design
-- CSS Animations
-- Modal Windows
-- Search Functionality
-
----
-
-##  Future Improvements
-
-- Planet filtering
-- Planet sorting
-- Toast notifications
-- More space facts
-- Planet comparison feature
-- Accessibility improvements
-
-
-
----
-
-##  License
-
-This project is licensed under the MIT License.
-
-Feel free to use and modify it for learning purposes.
-
 ## Live Demo
 http://space-explorer-amini.netlify.app/
 
